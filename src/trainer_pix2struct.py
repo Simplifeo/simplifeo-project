@@ -65,6 +65,8 @@ def train():
         load_in_4bit=True,
         torch_dtype=torch.bfloat16,
     )
+    
+    model.config.use_cache = False
 
     # Préparer le modèle pour l'entraînement avec PEFT/LoRA
     # On ne va entraîner que de petites "couches d'adaptation" (environ 1% du modèle)
@@ -90,6 +92,7 @@ def train():
         save_steps=500, # Sauvegarde un checkpoint tous les 500 pas
         learning_rate=2e-4,
         remove_unused_columns=False,
+        fp16=True, 
     )
 
     # Créer l'objet Trainer
