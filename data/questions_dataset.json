@@ -1,0 +1,2502 @@
+[
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "Société Générale",
+    "image_path": "data/synthetic_bank_statements/statement_0094.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "4055.39 €",
+    "image_path": "data/synthetic_bank_statements/statement_0094.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Aurélie-Aurore Navarro",
+    "image_path": "data/synthetic_bank_statements/statement_0094.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'VIREMENT DE CARRE' ?",
+    "answer": "397.52 €",
+    "image_path": "data/synthetic_bank_statements/statement_0094.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0095.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "3705.73 €",
+    "image_path": "data/synthetic_bank_statements/statement_0095.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Sophie Cordier-Morel",
+    "image_path": "data/synthetic_bank_statements/statement_0095.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'VIREMENT A MOULIN' ?",
+    "answer": "243.69 €",
+    "image_path": "data/synthetic_bank_statements/statement_0095.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0028.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "1897.71 €",
+    "image_path": "data/synthetic_bank_statements/statement_0028.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Célina-Victoire Guichard",
+    "image_path": "data/synthetic_bank_statements/statement_0028.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'REMISE DE CHEQUE LABBÉ' ?",
+    "answer": "431.04 €",
+    "image_path": "data/synthetic_bank_statements/statement_0028.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Société Générale",
+    "image_path": "data/synthetic_bank_statements/statement_0079.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "2933.31 €",
+    "image_path": "data/synthetic_bank_statements/statement_0079.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Jacques Vallet",
+    "image_path": "data/synthetic_bank_statements/statement_0079.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'VIREMENT A POTTIER' ?",
+    "answer": "174.58 €",
+    "image_path": "data/synthetic_bank_statements/statement_0079.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0013.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "-228.11 €",
+    "image_path": "data/synthetic_bank_statements/statement_0013.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Édith Gallet-Menard",
+    "image_path": "data/synthetic_bank_statements/statement_0013.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'RETRAIT DAB COULON BONNET S.A.' ?",
+    "answer": "321.55 €",
+    "image_path": "data/synthetic_bank_statements/statement_0013.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "Crédit Agricole",
+    "image_path": "data/synthetic_bank_statements/statement_0069.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "1938.18 €",
+    "image_path": "data/synthetic_bank_statements/statement_0069.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Marcel de la Masson",
+    "image_path": "data/synthetic_bank_statements/statement_0069.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'RETRAIT DAB MARTEL' ?",
+    "answer": "271.99 €",
+    "image_path": "data/synthetic_bank_statements/statement_0069.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0059.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "-767.24 €",
+    "image_path": "data/synthetic_bank_statements/statement_0059.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Richard Chauveau",
+    "image_path": "data/synthetic_bank_statements/statement_0059.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'VIREMENT A LÉGER' ?",
+    "answer": "171.54 €",
+    "image_path": "data/synthetic_bank_statements/statement_0059.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "Société Générale",
+    "image_path": "data/synthetic_bank_statements/statement_0086.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "103.26 €",
+    "image_path": "data/synthetic_bank_statements/statement_0086.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Timothée Gilbert",
+    "image_path": "data/synthetic_bank_statements/statement_0086.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB MARIN SA' ?",
+    "answer": "154.36 €",
+    "image_path": "data/synthetic_bank_statements/statement_0086.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0064.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "1543.86 €",
+    "image_path": "data/synthetic_bank_statements/statement_0064.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Maurice Pineau",
+    "image_path": "data/synthetic_bank_statements/statement_0064.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'REMISE DE CHEQUE DURAND' ?",
+    "answer": "366.97 €",
+    "image_path": "data/synthetic_bank_statements/statement_0064.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0035.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "1592.32 €",
+    "image_path": "data/synthetic_bank_statements/statement_0035.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Théodore Lacombe",
+    "image_path": "data/synthetic_bank_statements/statement_0035.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'VIREMENT A DOS SANTOS RICHARD SARL' ?",
+    "answer": "193.98 €",
+    "image_path": "data/synthetic_bank_statements/statement_0035.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0096.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "4573.37 €",
+    "image_path": "data/synthetic_bank_statements/statement_0096.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Noémi de Baudry",
+    "image_path": "data/synthetic_bank_statements/statement_0096.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'VIREMENT DE LE ROUX S.A.S.' ?",
+    "answer": "276.71 €",
+    "image_path": "data/synthetic_bank_statements/statement_0096.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0065.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "810.76 €",
+    "image_path": "data/synthetic_bank_statements/statement_0065.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Roland Weiss",
+    "image_path": "data/synthetic_bank_statements/statement_0065.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'VIREMENT A BLOT' ?",
+    "answer": "198.36 €",
+    "image_path": "data/synthetic_bank_statements/statement_0065.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "Crédit Agricole",
+    "image_path": "data/synthetic_bank_statements/statement_0080.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "1250.42 €",
+    "image_path": "data/synthetic_bank_statements/statement_0080.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Madeleine Barbier de la Barthelemy",
+    "image_path": "data/synthetic_bank_statements/statement_0080.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'RETRAIT DAB COLLIN MASSE S.A.' ?",
+    "answer": "222.73 €",
+    "image_path": "data/synthetic_bank_statements/statement_0080.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0043.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "-1876.05 €",
+    "image_path": "data/synthetic_bank_statements/statement_0043.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Michel Fournier",
+    "image_path": "data/synthetic_bank_statements/statement_0043.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'VIREMENT A ROUSSEAU PIERRE S.A.S.' ?",
+    "answer": "344.57 €",
+    "image_path": "data/synthetic_bank_statements/statement_0043.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0017.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "2378.39 €",
+    "image_path": "data/synthetic_bank_statements/statement_0017.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Frédéric Le Lebon",
+    "image_path": "data/synthetic_bank_statements/statement_0017.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'VIREMENT A GILLET S.A.R.L.' ?",
+    "answer": "386.80 €",
+    "image_path": "data/synthetic_bank_statements/statement_0017.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Crédit Agricole",
+    "image_path": "data/synthetic_bank_statements/statement_0069.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "1938.18 €",
+    "image_path": "data/synthetic_bank_statements/statement_0069.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Marcel de la Masson",
+    "image_path": "data/synthetic_bank_statements/statement_0069.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'VIREMENT DE LANGLOIS RAMOS ET FILS' ?",
+    "answer": "119.80 €",
+    "image_path": "data/synthetic_bank_statements/statement_0069.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0092.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "1795.4 €",
+    "image_path": "data/synthetic_bank_statements/statement_0092.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Lorraine Barbier",
+    "image_path": "data/synthetic_bank_statements/statement_0092.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'VIREMENT DE JACQUOT HERVÉ ET FILS' ?",
+    "answer": "409.21 €",
+    "image_path": "data/synthetic_bank_statements/statement_0092.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "Crédit Agricole",
+    "image_path": "data/synthetic_bank_statements/statement_0074.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "3513.53 €",
+    "image_path": "data/synthetic_bank_statements/statement_0074.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Pauline Lebreton",
+    "image_path": "data/synthetic_bank_statements/statement_0074.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'RETRAIT DAB TESSIER' ?",
+    "answer": "80.74 €",
+    "image_path": "data/synthetic_bank_statements/statement_0074.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0014.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "-379.54 €",
+    "image_path": "data/synthetic_bank_statements/statement_0014.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Édith Renard",
+    "image_path": "data/synthetic_bank_statements/statement_0014.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'VIREMENT A DOS SANTOS S.A.' ?",
+    "answer": "391.95 €",
+    "image_path": "data/synthetic_bank_statements/statement_0014.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0084.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "3225.43 €",
+    "image_path": "data/synthetic_bank_statements/statement_0084.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Maggie de Pineau",
+    "image_path": "data/synthetic_bank_statements/statement_0084.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'REMISE DE CHEQUE LEMONNIER DELAUNAY ET FILS' ?",
+    "answer": "418.04 €",
+    "image_path": "data/synthetic_bank_statements/statement_0084.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0013.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "-228.11 €",
+    "image_path": "data/synthetic_bank_statements/statement_0013.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Édith Gallet-Menard",
+    "image_path": "data/synthetic_bank_statements/statement_0013.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'VIREMENT DE BERTIN SARL' ?",
+    "answer": "81.72 €",
+    "image_path": "data/synthetic_bank_statements/statement_0013.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0039.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "1713.41 €",
+    "image_path": "data/synthetic_bank_statements/statement_0039.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Philippe-Bernard Letellier",
+    "image_path": "data/synthetic_bank_statements/statement_0039.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'VIREMENT A THOMAS' ?",
+    "answer": "23.19 €",
+    "image_path": "data/synthetic_bank_statements/statement_0039.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "Société Générale",
+    "image_path": "data/synthetic_bank_statements/statement_0001.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "4544.91 €",
+    "image_path": "data/synthetic_bank_statements/statement_0001.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Aimée Bernier",
+    "image_path": "data/synthetic_bank_statements/statement_0001.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB BARTHELEMY' ?",
+    "answer": "224.03 €",
+    "image_path": "data/synthetic_bank_statements/statement_0001.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0091.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "1425.96 €",
+    "image_path": "data/synthetic_bank_statements/statement_0091.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Sophie Le Roux",
+    "image_path": "data/synthetic_bank_statements/statement_0091.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB CHEVALIER SARL' ?",
+    "answer": "16.56 €",
+    "image_path": "data/synthetic_bank_statements/statement_0091.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0010.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "1614.96 €",
+    "image_path": "data/synthetic_bank_statements/statement_0010.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Sylvie Vallet",
+    "image_path": "data/synthetic_bank_statements/statement_0010.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'REMISE DE CHEQUE MONNIER BODIN S.A.R.L.' ?",
+    "answer": "420.68 €",
+    "image_path": "data/synthetic_bank_statements/statement_0010.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0095.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "3705.73 €",
+    "image_path": "data/synthetic_bank_statements/statement_0095.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Sophie Cordier-Morel",
+    "image_path": "data/synthetic_bank_statements/statement_0095.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'VIREMENT A MOULIN' ?",
+    "answer": "243.69 €",
+    "image_path": "data/synthetic_bank_statements/statement_0095.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0016.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "2927.89 €",
+    "image_path": "data/synthetic_bank_statements/statement_0016.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Michel-Richard Thomas",
+    "image_path": "data/synthetic_bank_statements/statement_0016.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'RETRAIT DAB LEGRAND' ?",
+    "answer": "114.57 €",
+    "image_path": "data/synthetic_bank_statements/statement_0016.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "Crédit Agricole",
+    "image_path": "data/synthetic_bank_statements/statement_0004.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "4554.84 €",
+    "image_path": "data/synthetic_bank_statements/statement_0004.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "William Lagarde",
+    "image_path": "data/synthetic_bank_statements/statement_0004.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'REMISE DE CHEQUE MEYER SARL' ?",
+    "answer": "406.35 €",
+    "image_path": "data/synthetic_bank_statements/statement_0004.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0014.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "-379.54 €",
+    "image_path": "data/synthetic_bank_statements/statement_0014.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Édith Renard",
+    "image_path": "data/synthetic_bank_statements/statement_0014.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB WEBER' ?",
+    "answer": "279.03 €",
+    "image_path": "data/synthetic_bank_statements/statement_0014.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0034.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "609.17 €",
+    "image_path": "data/synthetic_bank_statements/statement_0034.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Grégoire Toussaint",
+    "image_path": "data/synthetic_bank_statements/statement_0034.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'VIREMENT A MOREL' ?",
+    "answer": "297.40 €",
+    "image_path": "data/synthetic_bank_statements/statement_0034.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0029.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "2064.11 €",
+    "image_path": "data/synthetic_bank_statements/statement_0029.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Thibaut Mathieu",
+    "image_path": "data/synthetic_bank_statements/statement_0029.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'RETRAIT DAB JOURDAN TEIXEIRA SARL' ?",
+    "answer": "348.81 €",
+    "image_path": "data/synthetic_bank_statements/statement_0029.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0067.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "1841.22 €",
+    "image_path": "data/synthetic_bank_statements/statement_0067.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Margaux Adam",
+    "image_path": "data/synthetic_bank_statements/statement_0067.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'VIREMENT DE REY SA' ?",
+    "answer": "320.81 €",
+    "image_path": "data/synthetic_bank_statements/statement_0067.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "Société Générale",
+    "image_path": "data/synthetic_bank_statements/statement_0015.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "3060.36 €",
+    "image_path": "data/synthetic_bank_statements/statement_0015.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Jacqueline Boulanger",
+    "image_path": "data/synthetic_bank_statements/statement_0015.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'VIREMENT A LEFÈVRE' ?",
+    "answer": "57.37 €",
+    "image_path": "data/synthetic_bank_statements/statement_0015.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Société Générale",
+    "image_path": "data/synthetic_bank_statements/statement_0046.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "3371.45 €",
+    "image_path": "data/synthetic_bank_statements/statement_0046.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Noël Le Legros",
+    "image_path": "data/synthetic_bank_statements/statement_0046.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB VALLET' ?",
+    "answer": "375.99 €",
+    "image_path": "data/synthetic_bank_statements/statement_0046.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0007.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "1070.18 €",
+    "image_path": "data/synthetic_bank_statements/statement_0007.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Tristan Renaud Le Fernandes",
+    "image_path": "data/synthetic_bank_statements/statement_0007.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB VALLET RIVIÈRE SARL' ?",
+    "answer": "20.01 €",
+    "image_path": "data/synthetic_bank_statements/statement_0007.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0089.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "3456.3 €",
+    "image_path": "data/synthetic_bank_statements/statement_0089.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Rémy Guillon",
+    "image_path": "data/synthetic_bank_statements/statement_0089.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB GILLET' ?",
+    "answer": "117.54 €",
+    "image_path": "data/synthetic_bank_statements/statement_0089.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0099.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "1979.74 €",
+    "image_path": "data/synthetic_bank_statements/statement_0099.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Augustin Valette-Jean",
+    "image_path": "data/synthetic_bank_statements/statement_0099.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'REMISE DE CHEQUE DENIS' ?",
+    "answer": "47.48 €",
+    "image_path": "data/synthetic_bank_statements/statement_0099.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0056.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "-1006.99 €",
+    "image_path": "data/synthetic_bank_statements/statement_0056.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Anaïs Pages du Chevallier",
+    "image_path": "data/synthetic_bank_statements/statement_0056.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB LE GALL S.A.' ?",
+    "answer": "187.04 €",
+    "image_path": "data/synthetic_bank_statements/statement_0056.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0028.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "1897.71 €",
+    "image_path": "data/synthetic_bank_statements/statement_0028.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Célina-Victoire Guichard",
+    "image_path": "data/synthetic_bank_statements/statement_0028.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB CLERC DELANNOY SA' ?",
+    "answer": "58.53 €",
+    "image_path": "data/synthetic_bank_statements/statement_0028.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0073.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "2292.89 €",
+    "image_path": "data/synthetic_bank_statements/statement_0073.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Hugues Andre-Mendès",
+    "image_path": "data/synthetic_bank_statements/statement_0073.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'VIREMENT A SALMON S.A.' ?",
+    "answer": "269.70 €",
+    "image_path": "data/synthetic_bank_statements/statement_0073.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0093.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "1277.16 €",
+    "image_path": "data/synthetic_bank_statements/statement_0093.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Frédéric Legros-Godard",
+    "image_path": "data/synthetic_bank_statements/statement_0093.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'RETRAIT DAB DUVAL SARL' ?",
+    "answer": "314.88 €",
+    "image_path": "data/synthetic_bank_statements/statement_0093.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Crédit Agricole",
+    "image_path": "data/synthetic_bank_statements/statement_0020.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "633.93 €",
+    "image_path": "data/synthetic_bank_statements/statement_0020.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Zacharie Joubert",
+    "image_path": "data/synthetic_bank_statements/statement_0020.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'REMISE DE CHEQUE MARY S.A.' ?",
+    "answer": "358.51 €",
+    "image_path": "data/synthetic_bank_statements/statement_0020.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0097.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "1467.92 €",
+    "image_path": "data/synthetic_bank_statements/statement_0097.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Alfred Pruvost",
+    "image_path": "data/synthetic_bank_statements/statement_0097.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'RETRAIT DAB ALLAIN SARL' ?",
+    "answer": "48.17 €",
+    "image_path": "data/synthetic_bank_statements/statement_0097.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0072.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "2973.78 €",
+    "image_path": "data/synthetic_bank_statements/statement_0072.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Bernadette Bernier du Delaunay",
+    "image_path": "data/synthetic_bank_statements/statement_0072.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PRELEVEMENT LECONTE ET FILS' ?",
+    "answer": "411.80 €",
+    "image_path": "data/synthetic_bank_statements/statement_0072.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0003.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "741.74 €",
+    "image_path": "data/synthetic_bank_statements/statement_0003.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Guy-Théophile Lévy",
+    "image_path": "data/synthetic_bank_statements/statement_0003.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB BOURDON MARION ET FILS' ?",
+    "answer": "67.85 €",
+    "image_path": "data/synthetic_bank_statements/statement_0003.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0065.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "810.76 €",
+    "image_path": "data/synthetic_bank_statements/statement_0065.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Roland Weiss",
+    "image_path": "data/synthetic_bank_statements/statement_0065.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'RETRAIT DAB CHARLES' ?",
+    "answer": "186.41 €",
+    "image_path": "data/synthetic_bank_statements/statement_0065.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Société Générale",
+    "image_path": "data/synthetic_bank_statements/statement_0079.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "2933.31 €",
+    "image_path": "data/synthetic_bank_statements/statement_0079.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Jacques Vallet",
+    "image_path": "data/synthetic_bank_statements/statement_0079.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PRELEVEMENT OLIVIER FAIVRE SA' ?",
+    "answer": "409.96 €",
+    "image_path": "data/synthetic_bank_statements/statement_0079.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0096.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "4573.37 €",
+    "image_path": "data/synthetic_bank_statements/statement_0096.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Noémi de Baudry",
+    "image_path": "data/synthetic_bank_statements/statement_0096.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PRELEVEMENT BOUVET ET FILS' ?",
+    "answer": "47.96 €",
+    "image_path": "data/synthetic_bank_statements/statement_0096.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0084.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "3225.43 €",
+    "image_path": "data/synthetic_bank_statements/statement_0084.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Maggie de Pineau",
+    "image_path": "data/synthetic_bank_statements/statement_0084.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'REMISE DE CHEQUE BERTHELOT POTIER ET FILS' ?",
+    "answer": "222.82 €",
+    "image_path": "data/synthetic_bank_statements/statement_0084.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0067.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "1841.22 €",
+    "image_path": "data/synthetic_bank_statements/statement_0067.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Margaux Adam",
+    "image_path": "data/synthetic_bank_statements/statement_0067.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'VIREMENT DE REY SA' ?",
+    "answer": "320.81 €",
+    "image_path": "data/synthetic_bank_statements/statement_0067.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0092.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "1795.4 €",
+    "image_path": "data/synthetic_bank_statements/statement_0092.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Lorraine Barbier",
+    "image_path": "data/synthetic_bank_statements/statement_0092.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB LUCAS CHEVALIER S.A.R.L.' ?",
+    "answer": "83.17 €",
+    "image_path": "data/synthetic_bank_statements/statement_0092.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0088.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "1213.21 €",
+    "image_path": "data/synthetic_bank_statements/statement_0088.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "René du Delannoy",
+    "image_path": "data/synthetic_bank_statements/statement_0088.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB FERNANDES ET FILS' ?",
+    "answer": "412.16 €",
+    "image_path": "data/synthetic_bank_statements/statement_0088.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0064.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "1543.86 €",
+    "image_path": "data/synthetic_bank_statements/statement_0064.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Maurice Pineau",
+    "image_path": "data/synthetic_bank_statements/statement_0064.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'VIREMENT DE ROSSI' ?",
+    "answer": "389.65 €",
+    "image_path": "data/synthetic_bank_statements/statement_0064.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Crédit Agricole",
+    "image_path": "data/synthetic_bank_statements/statement_0020.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "633.93 €",
+    "image_path": "data/synthetic_bank_statements/statement_0020.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Zacharie Joubert",
+    "image_path": "data/synthetic_bank_statements/statement_0020.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'VIREMENT DE LEGROS' ?",
+    "answer": "338.29 €",
+    "image_path": "data/synthetic_bank_statements/statement_0020.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0028.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "1897.71 €",
+    "image_path": "data/synthetic_bank_statements/statement_0028.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Célina-Victoire Guichard",
+    "image_path": "data/synthetic_bank_statements/statement_0028.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PRELEVEMENT PELTIER PONS S.A.' ?",
+    "answer": "221.50 €",
+    "image_path": "data/synthetic_bank_statements/statement_0028.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0049.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "108.94 €",
+    "image_path": "data/synthetic_bank_statements/statement_0049.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Jacques Buisson",
+    "image_path": "data/synthetic_bank_statements/statement_0049.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'VIREMENT DE HOARAU BENARD S.A.R.L.' ?",
+    "answer": "51.35 €",
+    "image_path": "data/synthetic_bank_statements/statement_0049.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0006.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "1404.15 €",
+    "image_path": "data/synthetic_bank_statements/statement_0006.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Bertrand Imbert",
+    "image_path": "data/synthetic_bank_statements/statement_0006.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB DIAS' ?",
+    "answer": "233.05 €",
+    "image_path": "data/synthetic_bank_statements/statement_0006.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0091.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "1425.96 €",
+    "image_path": "data/synthetic_bank_statements/statement_0091.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Sophie Le Roux",
+    "image_path": "data/synthetic_bank_statements/statement_0091.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB CHEVALIER SARL' ?",
+    "answer": "16.56 €",
+    "image_path": "data/synthetic_bank_statements/statement_0091.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Crédit Agricole",
+    "image_path": "data/synthetic_bank_statements/statement_0030.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "156.97 €",
+    "image_path": "data/synthetic_bank_statements/statement_0030.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Geneviève Jean-Rodriguez",
+    "image_path": "data/synthetic_bank_statements/statement_0030.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB LELEU' ?",
+    "answer": "122.91 €",
+    "image_path": "data/synthetic_bank_statements/statement_0030.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Société Générale",
+    "image_path": "data/synthetic_bank_statements/statement_0000.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "2064.5 €",
+    "image_path": "data/synthetic_bank_statements/statement_0000.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Emmanuel Renaud de la Buisson",
+    "image_path": "data/synthetic_bank_statements/statement_0000.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'REMISE DE CHEQUE GUILLOU PONS S.A.R.L.' ?",
+    "answer": "445.22 €",
+    "image_path": "data/synthetic_bank_statements/statement_0000.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "Société Générale",
+    "image_path": "data/synthetic_bank_statements/statement_0052.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "3289.28 €",
+    "image_path": "data/synthetic_bank_statements/statement_0052.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Marianne Loiseau",
+    "image_path": "data/synthetic_bank_statements/statement_0052.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'VIREMENT A BESNARD S.A.R.L.' ?",
+    "answer": "235.08 €",
+    "image_path": "data/synthetic_bank_statements/statement_0052.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "Société Générale",
+    "image_path": "data/synthetic_bank_statements/statement_0023.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "4439.38 €",
+    "image_path": "data/synthetic_bank_statements/statement_0023.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Claude Chauveau de la Petit",
+    "image_path": "data/synthetic_bank_statements/statement_0023.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'REMISE DE CHEQUE LEBRUN S.A.R.L.' ?",
+    "answer": "127.26 €",
+    "image_path": "data/synthetic_bank_statements/statement_0023.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "Crédit Agricole",
+    "image_path": "data/synthetic_bank_statements/statement_0076.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "259.02 €",
+    "image_path": "data/synthetic_bank_statements/statement_0076.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Pauline Colin",
+    "image_path": "data/synthetic_bank_statements/statement_0076.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PRELEVEMENT ALEXANDRE' ?",
+    "answer": "79.19 €",
+    "image_path": "data/synthetic_bank_statements/statement_0076.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0040.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "750.14 €",
+    "image_path": "data/synthetic_bank_statements/statement_0040.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Nicolas Mathieu de Martinez",
+    "image_path": "data/synthetic_bank_statements/statement_0040.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'RETRAIT DAB ROBERT' ?",
+    "answer": "40.06 €",
+    "image_path": "data/synthetic_bank_statements/statement_0040.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Crédit Agricole",
+    "image_path": "data/synthetic_bank_statements/statement_0055.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "1090.95 €",
+    "image_path": "data/synthetic_bank_statements/statement_0055.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Margot Le Langlois",
+    "image_path": "data/synthetic_bank_statements/statement_0055.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PRELEVEMENT ALLARD ET FILS' ?",
+    "answer": "83.68 €",
+    "image_path": "data/synthetic_bank_statements/statement_0055.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0011.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "2224.51 €",
+    "image_path": "data/synthetic_bank_statements/statement_0011.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Guy Humbert",
+    "image_path": "data/synthetic_bank_statements/statement_0011.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB POIRIER' ?",
+    "answer": "345.61 €",
+    "image_path": "data/synthetic_bank_statements/statement_0011.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0088.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "1213.21 €",
+    "image_path": "data/synthetic_bank_statements/statement_0088.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "René du Delannoy",
+    "image_path": "data/synthetic_bank_statements/statement_0088.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'VIREMENT A MAURICE S.A.S.' ?",
+    "answer": "207.38 €",
+    "image_path": "data/synthetic_bank_statements/statement_0088.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0011.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "2224.51 €",
+    "image_path": "data/synthetic_bank_statements/statement_0011.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Guy Humbert",
+    "image_path": "data/synthetic_bank_statements/statement_0011.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB POIRIER' ?",
+    "answer": "345.61 €",
+    "image_path": "data/synthetic_bank_statements/statement_0011.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0044.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "1263.84 €",
+    "image_path": "data/synthetic_bank_statements/statement_0044.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Thomas Monnier",
+    "image_path": "data/synthetic_bank_statements/statement_0044.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB PIERRE' ?",
+    "answer": "26.24 €",
+    "image_path": "data/synthetic_bank_statements/statement_0044.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0011.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "2224.51 €",
+    "image_path": "data/synthetic_bank_statements/statement_0011.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Guy Humbert",
+    "image_path": "data/synthetic_bank_statements/statement_0011.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB POIRIER' ?",
+    "answer": "345.61 €",
+    "image_path": "data/synthetic_bank_statements/statement_0011.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Société Générale",
+    "image_path": "data/synthetic_bank_statements/statement_0000.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "2064.5 €",
+    "image_path": "data/synthetic_bank_statements/statement_0000.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Emmanuel Renaud de la Buisson",
+    "image_path": "data/synthetic_bank_statements/statement_0000.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'REMISE DE CHEQUE GERMAIN' ?",
+    "answer": "29.48 €",
+    "image_path": "data/synthetic_bank_statements/statement_0000.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0031.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "4311.44 €",
+    "image_path": "data/synthetic_bank_statements/statement_0031.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Adélaïde Pereira",
+    "image_path": "data/synthetic_bank_statements/statement_0031.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'VIREMENT DE MACE SARL' ?",
+    "answer": "403.48 €",
+    "image_path": "data/synthetic_bank_statements/statement_0031.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0099.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "1979.74 €",
+    "image_path": "data/synthetic_bank_statements/statement_0099.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Augustin Valette-Jean",
+    "image_path": "data/synthetic_bank_statements/statement_0099.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'REMISE DE CHEQUE DENIS' ?",
+    "answer": "47.48 €",
+    "image_path": "data/synthetic_bank_statements/statement_0099.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0013.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "-228.11 €",
+    "image_path": "data/synthetic_bank_statements/statement_0013.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Édith Gallet-Menard",
+    "image_path": "data/synthetic_bank_statements/statement_0013.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PRELEVEMENT BLANC PETIT SARL' ?",
+    "answer": "66.56 €",
+    "image_path": "data/synthetic_bank_statements/statement_0013.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0088.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "1213.21 €",
+    "image_path": "data/synthetic_bank_statements/statement_0088.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "René du Delannoy",
+    "image_path": "data/synthetic_bank_statements/statement_0088.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB ROSSI S.A.R.L.' ?",
+    "answer": "31.90 €",
+    "image_path": "data/synthetic_bank_statements/statement_0088.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0097.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "1467.92 €",
+    "image_path": "data/synthetic_bank_statements/statement_0097.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Alfred Pruvost",
+    "image_path": "data/synthetic_bank_statements/statement_0097.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'VIREMENT DE GALLET ROSSI SARL' ?",
+    "answer": "42.30 €",
+    "image_path": "data/synthetic_bank_statements/statement_0097.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0084.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "3225.43 €",
+    "image_path": "data/synthetic_bank_statements/statement_0084.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Maggie de Pineau",
+    "image_path": "data/synthetic_bank_statements/statement_0084.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'RETRAIT DAB VALENTIN MERLE S.A.S.' ?",
+    "answer": "130.56 €",
+    "image_path": "data/synthetic_bank_statements/statement_0084.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "Société Générale",
+    "image_path": "data/synthetic_bank_statements/statement_0022.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "3980.14 €",
+    "image_path": "data/synthetic_bank_statements/statement_0022.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Théophile Hernandez",
+    "image_path": "data/synthetic_bank_statements/statement_0022.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'VIREMENT DE MICHAUD' ?",
+    "answer": "364.54 €",
+    "image_path": "data/synthetic_bank_statements/statement_0022.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0018.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "3304.83 €",
+    "image_path": "data/synthetic_bank_statements/statement_0018.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "René Da Costa",
+    "image_path": "data/synthetic_bank_statements/statement_0018.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'REMISE DE CHEQUE AUBERT' ?",
+    "answer": "14.83 €",
+    "image_path": "data/synthetic_bank_statements/statement_0018.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Crédit Agricole",
+    "image_path": "data/synthetic_bank_statements/statement_0082.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "92.74 €",
+    "image_path": "data/synthetic_bank_statements/statement_0082.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Jules Le Gomez",
+    "image_path": "data/synthetic_bank_statements/statement_0082.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PRELEVEMENT PHILIPPE' ?",
+    "answer": "406.64 €",
+    "image_path": "data/synthetic_bank_statements/statement_0082.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "Société Générale",
+    "image_path": "data/synthetic_bank_statements/statement_0022.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "3980.14 €",
+    "image_path": "data/synthetic_bank_statements/statement_0022.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Théophile Hernandez",
+    "image_path": "data/synthetic_bank_statements/statement_0022.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'RETRAIT DAB ALLARD' ?",
+    "answer": "261.48 €",
+    "image_path": "data/synthetic_bank_statements/statement_0022.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Société Générale",
+    "image_path": "data/synthetic_bank_statements/statement_0086.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "103.26 €",
+    "image_path": "data/synthetic_bank_statements/statement_0086.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Timothée Gilbert",
+    "image_path": "data/synthetic_bank_statements/statement_0086.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'RETRAIT DAB VINCENT HEBERT S.A.S.' ?",
+    "answer": "40.76 €",
+    "image_path": "data/synthetic_bank_statements/statement_0086.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0028.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "1897.71 €",
+    "image_path": "data/synthetic_bank_statements/statement_0028.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Célina-Victoire Guichard",
+    "image_path": "data/synthetic_bank_statements/statement_0028.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PRELEVEMENT BIGOT ET FILS' ?",
+    "answer": "121.79 €",
+    "image_path": "data/synthetic_bank_statements/statement_0028.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Crédit Agricole",
+    "image_path": "data/synthetic_bank_statements/statement_0090.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "3185.72 €",
+    "image_path": "data/synthetic_bank_statements/statement_0090.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Camille Alexandre",
+    "image_path": "data/synthetic_bank_statements/statement_0090.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'REMISE DE CHEQUE DENIS MATHIEU SARL' ?",
+    "answer": "128.84 €",
+    "image_path": "data/synthetic_bank_statements/statement_0090.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Crédit Agricole",
+    "image_path": "data/synthetic_bank_statements/statement_0012.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "1510.56 €",
+    "image_path": "data/synthetic_bank_statements/statement_0012.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Robert Boulanger-Lacombe",
+    "image_path": "data/synthetic_bank_statements/statement_0012.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB LAUNAY SARL' ?",
+    "answer": "322.37 €",
+    "image_path": "data/synthetic_bank_statements/statement_0012.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "Crédit Agricole",
+    "image_path": "data/synthetic_bank_statements/statement_0080.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "1250.42 €",
+    "image_path": "data/synthetic_bank_statements/statement_0080.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Madeleine Barbier de la Barthelemy",
+    "image_path": "data/synthetic_bank_statements/statement_0080.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB ROGER' ?",
+    "answer": "229.67 €",
+    "image_path": "data/synthetic_bank_statements/statement_0080.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "Société Générale",
+    "image_path": "data/synthetic_bank_statements/statement_0051.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "946.24 €",
+    "image_path": "data/synthetic_bank_statements/statement_0051.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Adrien Weiss",
+    "image_path": "data/synthetic_bank_statements/statement_0051.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'REMISE DE CHEQUE GAILLARD GALLET S.A.' ?",
+    "answer": "270.37 €",
+    "image_path": "data/synthetic_bank_statements/statement_0051.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0014.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "-379.54 €",
+    "image_path": "data/synthetic_bank_statements/statement_0014.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Édith Renard",
+    "image_path": "data/synthetic_bank_statements/statement_0014.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'RETRAIT DAB HARDY' ?",
+    "answer": "365.98 €",
+    "image_path": "data/synthetic_bank_statements/statement_0014.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0061.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "-853.44 €",
+    "image_path": "data/synthetic_bank_statements/statement_0061.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Henriette David-Lévy",
+    "image_path": "data/synthetic_bank_statements/statement_0061.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'VIREMENT A LOISEAU' ?",
+    "answer": "135.33 €",
+    "image_path": "data/synthetic_bank_statements/statement_0061.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "Crédit Agricole",
+    "image_path": "data/synthetic_bank_statements/statement_0070.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "437.37 €",
+    "image_path": "data/synthetic_bank_statements/statement_0070.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Augustin Blondel",
+    "image_path": "data/synthetic_bank_statements/statement_0070.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'VIREMENT DE LEDOUX GUILLOU S.A.R.L.' ?",
+    "answer": "70.66 €",
+    "image_path": "data/synthetic_bank_statements/statement_0070.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0035.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "1592.32 €",
+    "image_path": "data/synthetic_bank_statements/statement_0035.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Théodore Lacombe",
+    "image_path": "data/synthetic_bank_statements/statement_0035.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'VIREMENT A DOS SANTOS RICHARD SARL' ?",
+    "answer": "193.98 €",
+    "image_path": "data/synthetic_bank_statements/statement_0035.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Société Générale",
+    "image_path": "data/synthetic_bank_statements/statement_0023.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "4439.38 €",
+    "image_path": "data/synthetic_bank_statements/statement_0023.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Claude Chauveau de la Petit",
+    "image_path": "data/synthetic_bank_statements/statement_0023.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'REMISE DE CHEQUE CARPENTIER BERGER S.A.S.' ?",
+    "answer": "173.95 €",
+    "image_path": "data/synthetic_bank_statements/statement_0023.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0035.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "1592.32 €",
+    "image_path": "data/synthetic_bank_statements/statement_0035.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Théodore Lacombe",
+    "image_path": "data/synthetic_bank_statements/statement_0035.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'REMISE DE CHEQUE DESCHAMPS' ?",
+    "answer": "397.75 €",
+    "image_path": "data/synthetic_bank_statements/statement_0035.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0005.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "1036.51 €",
+    "image_path": "data/synthetic_bank_statements/statement_0005.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Henriette Payet",
+    "image_path": "data/synthetic_bank_statements/statement_0005.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'VIREMENT DE JULIEN' ?",
+    "answer": "43.83 €",
+    "image_path": "data/synthetic_bank_statements/statement_0005.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0053.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "5094.03 €",
+    "image_path": "data/synthetic_bank_statements/statement_0053.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Augustin Colas",
+    "image_path": "data/synthetic_bank_statements/statement_0053.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'REMISE DE CHEQUE FOUCHER' ?",
+    "answer": "335.64 €",
+    "image_path": "data/synthetic_bank_statements/statement_0053.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "Crédit Agricole",
+    "image_path": "data/synthetic_bank_statements/statement_0077.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "3108.6 €",
+    "image_path": "data/synthetic_bank_statements/statement_0077.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Emmanuel Fabre",
+    "image_path": "data/synthetic_bank_statements/statement_0077.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'VIREMENT DE LECOQ PICHON S.A.S.' ?",
+    "answer": "315.65 €",
+    "image_path": "data/synthetic_bank_statements/statement_0077.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Société Générale",
+    "image_path": "data/synthetic_bank_statements/statement_0046.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "3371.45 €",
+    "image_path": "data/synthetic_bank_statements/statement_0046.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Noël Le Legros",
+    "image_path": "data/synthetic_bank_statements/statement_0046.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'VIREMENT A BLOT LECOMTE S.A.' ?",
+    "answer": "17.02 €",
+    "image_path": "data/synthetic_bank_statements/statement_0046.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "Société Générale",
+    "image_path": "data/synthetic_bank_statements/statement_0079.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "2933.31 €",
+    "image_path": "data/synthetic_bank_statements/statement_0079.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Jacques Vallet",
+    "image_path": "data/synthetic_bank_statements/statement_0079.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'VIREMENT A POTTIER' ?",
+    "answer": "174.58 €",
+    "image_path": "data/synthetic_bank_statements/statement_0079.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0036.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "-552.9 €",
+    "image_path": "data/synthetic_bank_statements/statement_0036.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Christine Barbier",
+    "image_path": "data/synthetic_bank_statements/statement_0036.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'VIREMENT A LEGROS' ?",
+    "answer": "326.64 €",
+    "image_path": "data/synthetic_bank_statements/statement_0036.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0026.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "3696.45 €",
+    "image_path": "data/synthetic_bank_statements/statement_0026.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Julie Fournier",
+    "image_path": "data/synthetic_bank_statements/statement_0026.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'REMISE DE CHEQUE PINTO' ?",
+    "answer": "163.88 €",
+    "image_path": "data/synthetic_bank_statements/statement_0026.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0073.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "2292.89 €",
+    "image_path": "data/synthetic_bank_statements/statement_0073.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Hugues Andre-Mendès",
+    "image_path": "data/synthetic_bank_statements/statement_0073.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'VIREMENT A SALMON S.A.' ?",
+    "answer": "269.70 €",
+    "image_path": "data/synthetic_bank_statements/statement_0073.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0089.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "3456.3 €",
+    "image_path": "data/synthetic_bank_statements/statement_0089.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Rémy Guillon",
+    "image_path": "data/synthetic_bank_statements/statement_0089.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PRELEVEMENT VAILLANT' ?",
+    "answer": "301.85 €",
+    "image_path": "data/synthetic_bank_statements/statement_0089.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0049.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "108.94 €",
+    "image_path": "data/synthetic_bank_statements/statement_0049.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Jacques Buisson",
+    "image_path": "data/synthetic_bank_statements/statement_0049.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'REMISE DE CHEQUE MARTINS' ?",
+    "answer": "25.56 €",
+    "image_path": "data/synthetic_bank_statements/statement_0049.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0092.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "1795.4 €",
+    "image_path": "data/synthetic_bank_statements/statement_0092.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Lorraine Barbier",
+    "image_path": "data/synthetic_bank_statements/statement_0092.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'VIREMENT DE WAGNER' ?",
+    "answer": "107.60 €",
+    "image_path": "data/synthetic_bank_statements/statement_0092.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0003.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "741.74 €",
+    "image_path": "data/synthetic_bank_statements/statement_0003.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Guy-Théophile Lévy",
+    "image_path": "data/synthetic_bank_statements/statement_0003.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB DELORME' ?",
+    "answer": "23.08 €",
+    "image_path": "data/synthetic_bank_statements/statement_0003.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Crédit Agricole",
+    "image_path": "data/synthetic_bank_statements/statement_0069.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "1938.18 €",
+    "image_path": "data/synthetic_bank_statements/statement_0069.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Marcel de la Masson",
+    "image_path": "data/synthetic_bank_statements/statement_0069.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'RETRAIT DAB MARTEL' ?",
+    "answer": "271.99 €",
+    "image_path": "data/synthetic_bank_statements/statement_0069.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "Crédit Agricole",
+    "image_path": "data/synthetic_bank_statements/statement_0078.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "2421.61 €",
+    "image_path": "data/synthetic_bank_statements/statement_0078.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Sabine Munoz-Peltier",
+    "image_path": "data/synthetic_bank_statements/statement_0078.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB MOULIN SA' ?",
+    "answer": "141.59 €",
+    "image_path": "data/synthetic_bank_statements/statement_0078.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "Crédit Agricole",
+    "image_path": "data/synthetic_bank_statements/statement_0070.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "437.37 €",
+    "image_path": "data/synthetic_bank_statements/statement_0070.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Augustin Blondel",
+    "image_path": "data/synthetic_bank_statements/statement_0070.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'VIREMENT A GUYOT' ?",
+    "answer": "238.71 €",
+    "image_path": "data/synthetic_bank_statements/statement_0070.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0059.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "-767.24 €",
+    "image_path": "data/synthetic_bank_statements/statement_0059.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Richard Chauveau",
+    "image_path": "data/synthetic_bank_statements/statement_0059.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'VIREMENT DE VERDIER' ?",
+    "answer": "289.42 €",
+    "image_path": "data/synthetic_bank_statements/statement_0059.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0047.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "1795.5 €",
+    "image_path": "data/synthetic_bank_statements/statement_0047.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Aimé Peron",
+    "image_path": "data/synthetic_bank_statements/statement_0047.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'RETRAIT DAB GUILBERT' ?",
+    "answer": "56.35 €",
+    "image_path": "data/synthetic_bank_statements/statement_0047.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0009.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "1719.59 €",
+    "image_path": "data/synthetic_bank_statements/statement_0009.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Charles Descamps de Pereira",
+    "image_path": "data/synthetic_bank_statements/statement_0009.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB MERCIER COHEN S.A.R.L.' ?",
+    "answer": "366.60 €",
+    "image_path": "data/synthetic_bank_statements/statement_0009.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0013.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "-228.11 €",
+    "image_path": "data/synthetic_bank_statements/statement_0013.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Édith Gallet-Menard",
+    "image_path": "data/synthetic_bank_statements/statement_0013.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'REMISE DE CHEQUE LACROIX' ?",
+    "answer": "211.69 €",
+    "image_path": "data/synthetic_bank_statements/statement_0013.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0062.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "3190.69 €",
+    "image_path": "data/synthetic_bank_statements/statement_0062.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Jeanne Robert",
+    "image_path": "data/synthetic_bank_statements/statement_0062.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'VIREMENT A VALLET S.A.R.L.' ?",
+    "answer": "299.76 €",
+    "image_path": "data/synthetic_bank_statements/statement_0062.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0039.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "1713.41 €",
+    "image_path": "data/synthetic_bank_statements/statement_0039.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Philippe-Bernard Letellier",
+    "image_path": "data/synthetic_bank_statements/statement_0039.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB TESSIER' ?",
+    "answer": "306.65 €",
+    "image_path": "data/synthetic_bank_statements/statement_0039.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0032.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "3365.96 €",
+    "image_path": "data/synthetic_bank_statements/statement_0032.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Augustin Lopez",
+    "image_path": "data/synthetic_bank_statements/statement_0032.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PRELEVEMENT PHILIPPE SARL' ?",
+    "answer": "355.43 €",
+    "image_path": "data/synthetic_bank_statements/statement_0032.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "Crédit Agricole",
+    "image_path": "data/synthetic_bank_statements/statement_0027.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "3166.78 €",
+    "image_path": "data/synthetic_bank_statements/statement_0027.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Nath Léger",
+    "image_path": "data/synthetic_bank_statements/statement_0027.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB GAILLARD' ?",
+    "answer": "276.09 €",
+    "image_path": "data/synthetic_bank_statements/statement_0027.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0013.png"
+  },
+  {
+    "question": "Montant du nouveau solde ?",
+    "answer": "-228.11 €",
+    "image_path": "data/synthetic_bank_statements/statement_0013.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Édith Gallet-Menard",
+    "image_path": "data/synthetic_bank_statements/statement_0013.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'VIREMENT DE BERTIN SARL' ?",
+    "answer": "81.72 €",
+    "image_path": "data/synthetic_bank_statements/statement_0013.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "Crédit Agricole",
+    "image_path": "data/synthetic_bank_statements/statement_0082.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "92.74 €",
+    "image_path": "data/synthetic_bank_statements/statement_0082.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Jules Le Gomez",
+    "image_path": "data/synthetic_bank_statements/statement_0082.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'REMISE DE CHEQUE RUIZ S.A.S.' ?",
+    "answer": "227.79 €",
+    "image_path": "data/synthetic_bank_statements/statement_0082.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0018.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "3304.83 €",
+    "image_path": "data/synthetic_bank_statements/statement_0018.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "René Da Costa",
+    "image_path": "data/synthetic_bank_statements/statement_0018.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'REMISE DE CHEQUE AUBERT' ?",
+    "answer": "14.83 €",
+    "image_path": "data/synthetic_bank_statements/statement_0018.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0043.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "-1876.05 €",
+    "image_path": "data/synthetic_bank_statements/statement_0043.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Michel Fournier",
+    "image_path": "data/synthetic_bank_statements/statement_0043.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PRELEVEMENT LETELLIER' ?",
+    "answer": "162.93 €",
+    "image_path": "data/synthetic_bank_statements/statement_0043.png"
+  },
+  {
+    "question": "Quel est le nom de la banque ?",
+    "answer": "Crédit Agricole",
+    "image_path": "data/synthetic_bank_statements/statement_0020.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "633.93 €",
+    "image_path": "data/synthetic_bank_statements/statement_0020.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Zacharie Joubert",
+    "image_path": "data/synthetic_bank_statements/statement_0020.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'RETRAIT DAB RENAULT' ?",
+    "answer": "403.98 €",
+    "image_path": "data/synthetic_bank_statements/statement_0020.png"
+  },
+  {
+    "question": "Quelle est la banque ?",
+    "answer": "BNP Paribas",
+    "image_path": "data/synthetic_bank_statements/statement_0005.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "1036.51 €",
+    "image_path": "data/synthetic_bank_statements/statement_0005.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Henriette Payet",
+    "image_path": "data/synthetic_bank_statements/statement_0005.png"
+  },
+  {
+    "question": "Quel est le montant du crédit pour l'opération 'VIREMENT DE DE OLIVEIRA' ?",
+    "answer": "98.35 €",
+    "image_path": "data/synthetic_bank_statements/statement_0005.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "Crédit Mutuel",
+    "image_path": "data/synthetic_bank_statements/statement_0039.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "1713.41 €",
+    "image_path": "data/synthetic_bank_statements/statement_0039.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Philippe-Bernard Letellier",
+    "image_path": "data/synthetic_bank_statements/statement_0039.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB JOURDAN' ?",
+    "answer": "404.55 €",
+    "image_path": "data/synthetic_bank_statements/statement_0039.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "Société Générale",
+    "image_path": "data/synthetic_bank_statements/statement_0046.png"
+  },
+  {
+    "question": "Quel est le nouveau solde ?",
+    "answer": "3371.45 €",
+    "image_path": "data/synthetic_bank_statements/statement_0046.png"
+  },
+  {
+    "question": "Nom du client ?",
+    "answer": "Noël Le Legros",
+    "image_path": "data/synthetic_bank_statements/statement_0046.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'PAIEMENT CB VALLET' ?",
+    "answer": "375.99 €",
+    "image_path": "data/synthetic_bank_statements/statement_0046.png"
+  },
+  {
+    "question": "Nom de l'établissement bancaire ?",
+    "answer": "La Banque Postale",
+    "image_path": "data/synthetic_bank_statements/statement_0003.png"
+  },
+  {
+    "question": "Solde final ?",
+    "answer": "741.74 €",
+    "image_path": "data/synthetic_bank_statements/statement_0003.png"
+  },
+  {
+    "question": "Quel est le titulaire du compte ?",
+    "answer": "Guy-Théophile Lévy",
+    "image_path": "data/synthetic_bank_statements/statement_0003.png"
+  },
+  {
+    "question": "Quel est le montant du débit pour l'opération 'RETRAIT DAB BLANC' ?",
+    "answer": "106.67 €",
+    "image_path": "data/synthetic_bank_statements/statement_0003.png"
+  }
+]
