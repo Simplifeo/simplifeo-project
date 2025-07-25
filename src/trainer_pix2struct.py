@@ -11,7 +11,6 @@ from transformers import (
     Trainer
 )
 from peft import LoraConfig, get_peft_model
-from bitsandbytes import bnb
 
 # --- CONFIGURATION ---
 DATASET_PATH = "data/questions_dataset.json"
