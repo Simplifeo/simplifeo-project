@@ -60,13 +60,25 @@ def train():
     # Charger le modèle avec la technique QLoRA pour économiser la mémoire
     # - `load_in_4bit=True`: Charge le modèle en utilisant des nombres de 4 bits (très léger)
     # - `torch_dtype=torch.bfloat16`: Utilise un type de nombre optimisé pour les GPU modernes
-    model = Pix2StructForConditionalGeneration.from_pretrained(
-        BASE_MODEL_ID,
-        load_in_4bit=True,
-        torch_dtype=torch.bfloat16,
-    )
-    
-    model.config.use_cache = False
+   # NOUVEAU CODE À INSERER
+from transformers import BitsAndBytesConfig
+
+# Configuration de quantification explicite
+quantization_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_quant_type="nf4",
+    bnb_4bit_compute_dtype=torch.float16  # On force le type de calcul pour être compatible
+)
+
+# Charger le modèle avec notre configuration précise
+model = Pix2StructForConditionalGeneration.from_pretrained(
+    BASE_MODEL_ID,
+    quantization_config=quantization_config,
+    low_cpu_mem_usage=True,
+)
+
+model.config.use_cache = False
+
 
     # Préparer le modèle pour l'entraînement avec PEFT/LoRA
     # On ne va entraîner que de petites "couches d'adaptation" (environ 1% du modèle)
