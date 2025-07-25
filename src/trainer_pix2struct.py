@@ -8,7 +8,8 @@ from transformers import (
     Pix2StructForConditionalGeneration,
     Pix2StructProcessor,
     TrainingArguments,
-    Trainer
+    Trainer,
+    BitsAndBytesConfig  # On importe la configuration explicite
 )
 from peft import LoraConfig, get_peft_model
 
@@ -32,7 +33,9 @@ class BankStatementDataset(torch.utils.data.Dataset):
 
     def __getitem__(self, idx):
         item = self.dataset[idx]
-        image = Image.open(item['image_path'])
+        # On s'assure que le chemin est bien relatif au dossier du projet
+        image_path = os.path.join(os.getcwd(), item['image_path'])
+        image = Image.open(image_path)
         question = item['question']
         answer = item['answer']
 
@@ -57,40 +60,35 @@ def train():
     # Charger le processeur
     processor = Pix2StructProcessor.from_pretrained(BASE_MODEL_ID)
 
-    # Charger le modèle avec la technique QLoRA pour économiser la mémoire
-    # - `load_in_4bit=True`: Charge le modèle en utilisant des nombres de 4 bits (très léger)
-    # - `torch_dtype=torch.bfloat16`: Utilise un type de nombre optimisé pour les GPU modernes
-   # NOUVEAU CODE À INSERER
-from transformers import BitsAndBytesConfig
+    # --- NOUVELLE SECTION CORRIGÉE ---
+    # Configuration de quantification explicite pour éviter les conflits de type
+    quantization_config = BitsAndBytesConfig(
+        load_in_4bit=True,
+        bnb_4bit_quant_type="nf4",
+        bnb_4bit_compute_dtype=torch.float16  # On force le type de calcul pour être compatible
+    )
 
-# Configuration de quantification explicite
-quantization_config = BitsAndBytesConfig(
-    load_in_4bit=True,
-    bnb_4bit_quant_type="nf4",
-    bnb_4bit_compute_dtype=torch.float16  # On force le type de calcul pour être compatible
-)
-
-# Charger le modèle avec notre configuration précise
-model = Pix2StructForConditionalGeneration.from_pretrained(
-    BASE_MODEL_ID,
-    quantization_config=quantization_config,
-    low_cpu_mem_usage=True,
-)
-
-model.config.use_cache = False
-
+    # Charger le modèle avec notre configuration précise
+    model = Pix2StructForConditionalGeneration.from_pretrained(
+        BASE_MODEL_ID,
+        quantization_config=quantization_config,
+        low_cpu_mem_usage=True,
+    )
+    
+    # Désactiver le cache qui peut causer des problèmes lors de l'entraînement
+    model.config.use_cache = False
+    # --- FIN DE LA NOUVELLE SECTION ---
 
     # Préparer le modèle pour l'entraînement avec PEFT/LoRA
-    # On ne va entraîner que de petites "couches d'adaptation" (environ 1% du modèle)
     lora_config = LoraConfig(
         r=16,
         lora_alpha=32,
         lora_dropout=0.05,
         bias="none",
-        target_modules=["query", "value"] # On cible des parties spécifiques du modèle
+        target_modules=["query", "value"]
     )
     model = get_peft_model(model, lora_config)
-    model.print_trainable_parameters() # Affiche le % de paramètres que nous entraînons réellement
+    model.print_trainable_parameters()
 
     # Charger notre jeu de données
     dataset = BankStatementDataset(dataset_path=DATASET_PATH, processor=processor)
@@ -98,13 +96,13 @@ model.config.use_cache = False
     # Définir les arguments de l'entraînement
     training_args = TrainingArguments(
         output_dir=OUTPUT_MODEL_DIR,
-        num_train_epochs=3,  # On va montrer le jeu de données 3 fois au modèle
-        per_device_train_batch_size=2, # On traite les images 2 par 2
-        logging_steps=50, # Affiche la progression tous les 50 pas
-        save_steps=500, # Sauvegarde un checkpoint tous les 500 pas
+        num_train_epochs=3,
+        per_device_train_batch_size=2,
+        logging_steps=50,
+        save_steps=500,
         learning_rate=2e-4,
         remove_unused_columns=False,
-        fp16=True, 
+        fp16=True,  # On garde cette ligne, elle est cruciale
     )
 
     # Créer l'objet Trainer
@@ -120,11 +118,10 @@ model.config.use_cache = False
     print("--- Entraînement terminé ---")
 
     # Sauvegarder le modèle final (uniquement les couches LoRA entraînées)
-    model.save_pretrained(os.path.join(OUTPUT_MODEL_DIR, "final_checkpoint"))
-    print(f"✔ Modèle entraîné sauvegardé dans '{OUTPUT_MODEL_DIR}/final_checkpoint'")
+    final_checkpoint_dir = os.path.join(OUTPUT_MODEL_DIR, "final_checkpoint")
+    model.save_pretrained(final_checkpoint_dir)
+    print(f"✔ Modèle entraîné sauvegardé dans '{final_checkpoint_dir}'")
 
 
 if __name__ == "__main__":
-    # Ce bloc permet d'exécuter la fonction train() si on lance le script
-    # depuis la ligne de commande.
     train()
