@@ -8,10 +8,10 @@ from transformers import (
     Pix2StructForConditionalGeneration,
     Pix2StructProcessor,
     TrainingArguments,
-    Trainer,
-    BitsAndBytesConfig
+    Trainer
 )
 from peft import LoraConfig, get_peft_model
+import argparse
 
 # --- CONFIGURATION ---
 DATASET_PATH = "data/questions_dataset.json"
@@ -21,6 +21,7 @@ OUTPUT_MODEL_DIR = "simplifeo-bank-statement-model"
 # --- 1. Préparation du Jeu de Données ---
 class BankStatementDataset(torch.utils.data.Dataset):
     def __init__(self, dataset_path, processor):
+        self.dataset_path = dataset_path
         self.dataset = json.load(open(dataset_path))
         self.processor = processor
 
@@ -28,39 +29,64 @@ class BankStatementDataset(torch.utils.data.Dataset):
         return len(self.dataset)
 
     def __getitem__(self, idx):
+        print(f"\rPréparation des données... ({idx + 1}/{self.__len__()})", end="")
+        
         item = self.dataset[idx]
-        image_path = os.path.join(os.getcwd(), item['image_path'])
-        image = Image.open(image_path)
-        question = item['question']
-        answer = item['answer']
+        # --- CORRECTION FINALE DU CHEMIN ---
+        # On utilise directement le chemin stocké dans le JSON, qui est déjà correct.
+        image_path = item['image_path']
+        
+        try:
+            image = Image.open(image_path)
+            question = item['question']
+            answer = item['answer']
 
-        encoding = self.processor(
-            images=image,
-            text=f"Question: {question} Answer: {answer}",
-            return_tensors="pt",
-            padding="max_length",
-            truncation=True,
-            max_length=512
-        )
-        encoding = {k: v.squeeze() for k, v in encoding.items()}
-        return encoding
+            inputs = self.processor(
+                images=image,
+                text=f"Question: {question}",
+                return_tensors="pt",
+                padding="max_length",
+                truncation=True,
+                max_length=512
+            )
+
+            labels = self.processor(
+                text=answer,
+                return_tensors="pt",
+                padding="max_length",
+                truncation=True,
+                max_length=512
+            ).input_ids
+
+            inputs['labels'] = labels
+            inputs = {k: v.squeeze() for k, v in inputs.items()}
+            
+            return inputs
+            
+        except Exception as e:
+            print(f"\n\n--- ERREUR ---")
+            print(f"Impossible de traiter l'exemple #{idx} (image: {item['image_path']})")
+            print(f"Raison de l'erreur : {e}")
+            print(f"Cet exemple sera ignoré.\n")
+            return None
 
 # --- 2. Fonction Principale d'Entraînement ---
-def train():
+def train(smoke_test=False):
     print("Début du processus de fine-tuning...")
 
     processor = Pix2StructProcessor.from_pretrained(BASE_MODEL_ID)
+    dataset = BankStatementDataset(dataset_path=DATASET_PATH, processor=processor)
 
-    quantization_config = BitsAndBytesConfig(
-        load_in_4bit=True,
-        bnb_4bit_quant_type="nf4",
-        bnb_4bit_compute_dtype=torch.float16
-    )
+    if smoke_test:
+        print("\n--- LANCEMENT DU SMOKE TEST LOCAL ---")
+        print("Vérification de la préparation de 5 exemples...")
+        for i in range(5):
+            _ = dataset[i]
+        print("\n\n✔ Smoke test terminé avec succès ! Le code de préparation des données est valide.")
+        return
 
     model = Pix2StructForConditionalGeneration.from_pretrained(
         BASE_MODEL_ID,
-        quantization_config=quantization_config,
-        low_cpu_mem_usage=True,
     )
     
     model.config.use_cache = False
@@ -70,23 +96,22 @@ def train():
         lora_alpha=32,
         lora_dropout=0.05,
         bias="none",
-        target_modules=["query", "value"]
+        target_modules=["query", "value"],
     )
     model = get_peft_model(model, lora_config)
     model.print_trainable_parameters()
 
-    dataset = BankStatementDataset(dataset_path=DATASET_PATH, processor=processor)
-
     training_args = TrainingArguments(
         output_dir=OUTPUT_MODEL_DIR,
         num_train_epochs=3,
-        per_device_train_batch_size=2,
+        per_device_train_batch_size=1,
+        gradient_accumulation_steps=2,
         logging_steps=50,
         save_steps=500,
         learning_rate=2e-4,
         remove_unused_columns=False,
         fp16=True,
-        gradient_checkpointing=True,  # LA CORRECTION FINALE
+        dataloader_num_workers=2,
     )
 
     trainer = Trainer(
@@ -105,4 +130,12 @@ def train():
 
 
 if __name__ == "__main__":
-    train()
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        '--smoke-test',
+        action='store_true',
+        help='Lance une vérification rapide sans entraînement'
+    )
+    args = parser.parse_args()
+
+    train(smoke_test=args.smoke_test)

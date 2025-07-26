@@ -1,0 +1,6 @@
+pandas
+Pillow
+torch
+transformers
+peft
+accelerate
